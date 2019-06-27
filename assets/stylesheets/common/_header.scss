@@ -52,12 +52,14 @@
 
 .nav-item {
 	padding: 1rem;
-	a {
+	a, label {
 		color: #fff;
 	}
+}
 
-	label {
-		color: #fff;
+.nav-item:hover {
+	a, label {
+		color: $golden;
 	}
 }
 /* Tablet Styles */
