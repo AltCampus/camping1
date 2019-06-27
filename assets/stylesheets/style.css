@@ -268,10 +268,11 @@ p {
 
 .nav-item {
   padding: 1rem; }
-  .nav-item a {
+  .nav-item a, .nav-item label {
     color: #fff; }
-  .nav-item label {
-    color: #fff; }
+
+.nav-item:hover a, .nav-item:hover label {
+  color: #ef9632; }
 
 /* Tablet Styles */
 /* Desktop Styles */
@@ -617,6 +618,9 @@ p {
 
 .footer-links li {
   margin-right: 1rem; }
+
+.footer-links li:hover a {
+  color: #fff; }
 
 @media all and (min-width: 992px) {
   .footer {
